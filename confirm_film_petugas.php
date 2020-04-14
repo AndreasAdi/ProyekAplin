@@ -18,8 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   
     <a href="index.php"> <h3 style="text-align:center; float:left; margin-left: 47%;">BioskopID</h3> </a>
-    <a href="Register.php" style="float:left; margin-left: 500px;"> <text class="text-primary">Sign Up</text> </a>
-    <a href="Ticketing.php" style="float:left; margin-left: 30px;"> <text class="text-secondary">Login</text> </a>
+    <a href="Register.php" style="float:left; margin-left: 500px;"> <text class="text-secondary">Hello, Petugas!</text> </a>
 
     <div style="clear: both;"></div>
     <!--NAVBAR-->
@@ -48,42 +47,53 @@
         </nav>
 
     <!-- ISIAN PERTAMA-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:40%; width: 60%; text-align: center; left: 300px;">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="dolby.jpg" class="d-block w-100" style="width:100%; height:300px;">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Dolby Atmos</h5>
-                <p>Perfect Virtual Sound for your movies</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="kursi.jpg" class="d-block w-100" style="width:100%; height:300px;">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>BioskopID</h5>
-                <p>Best Place To Watch Movies with family</p>
-            </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        </div>
+    <br>
+    <table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">No.</th>
+            <th scope="col">Invoice No</th>
+            <th scope="col">Tanggal</th>
+            <th scope="col">Judul Film</th>
+            <th scope="col">Total</th>
+            <th scope="col">Detail</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>INV0X121</td>
+            <td>23-03-2020</td>
+            <td>DILAN MILEA</td>
+            <td>Rp. 50.000</td>
+            <td><button class="btn btn-primary">Show Detail</button></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>INV0X138</td>
+            <td>27-03-2020</td>
+            <td>TRANSFORMER</td>
+            <td>Rp. 50.000</td>
+            <td><button class="btn btn-primary">Show Detail</button></td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>INV0X147</td>
+            <td>04-04-2020</td>
+            <td>MULAN</td>
+            <td>Rp. 50.000</td>
+            <td><button class="btn btn-primary">Show Detail</button></td>
+        </tr>
+    </tbody>
+    </table>
 
-        <!--FOOTER-->
-        <ul class="nav justify-content-center bg-dark" style="position: fixed; left: 0; bottom: 0; width:100%;">
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Copyright 2020</a>
-        </li>
-        </ul>
+
+
+    <!--FOOTER-->
+    <ul class="nav justify-content-center bg-dark" style="position: fixed; left: 0; bottom: 0; width:100%;">
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Copyright 2020</a>
+    </li>
+    </ul>
   </body>
 </html>

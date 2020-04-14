@@ -20,7 +20,6 @@
     <a href="index.php"> <h3 style="text-align:center; float:left; margin-left: 47%;">BioskopID</h3> </a>
     <a href="Register.php" style="float:left; margin-left: 500px;"> <text class="text-primary">Sign Up</text> </a>
     <a href="Ticketing.php" style="float:left; margin-left: 30px;"> <text class="text-secondary">Login</text> </a>
-
     <div style="clear: both;"></div>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -48,42 +47,27 @@
         </nav>
 
     <!-- ISIAN PERTAMA-->
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:40%; width: 60%; text-align: center; left: 300px;">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img src="dolby.jpg" class="d-block w-100" style="width:100%; height:300px;">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Dolby Atmos</h5>
-                <p>Perfect Virtual Sound for your movies</p>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="kursi.jpg" class="d-block w-100" style="width:100%; height:300px;">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>BioskopID</h5>
-                <p>Best Place To Watch Movies with family</p>
-            </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-        </div>
 
-        <!--FOOTER-->
-        <ul class="nav justify-content-center bg-dark" style="position: fixed; left: 0; bottom: 0; width:100%;">
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Copyright 2020</a>
-        </li>
-        </ul>
+    <!--SNACK--> <br><br>
+    <h3 style="text-align: center;">Favourite Snack Of The Month</h3>
+    <br>
+    <div id="comingsoon">
+      <div id="kotak1" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 90px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+    </div>
+    
+    <div style="clear:both;"></div>
+    <br>
+
+    <!--FOOTER-->
+    <ul class="nav justify-content-center bg-dark" style="position: fixed; left: 0; bottom: 0; width:100%;">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Copyright 2020</a>
+      </li>
+    </ul>
+
   </body>
 </html>

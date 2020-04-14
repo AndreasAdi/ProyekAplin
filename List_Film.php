@@ -20,7 +20,6 @@
     <a href="index.php"> <h3 style="text-align:center; float:left; margin-left: 47%;">BioskopID</h3> </a>
     <a href="Register.php" style="float:left; margin-left: 500px;"> <text class="text-primary">Sign Up</text> </a>
     <a href="Ticketing.php" style="float:left; margin-left: 30px;"> <text class="text-secondary">Login</text> </a>
-
     <div style="clear: both;"></div>
     <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -52,20 +51,28 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="dolby.jpg" class="d-block w-100" style="width:100%; height:300px;">
+            <img src="silver.png" class="d-block w-100" style="width:100%; height:300px;">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Dolby Atmos</h5>
-                <p>Perfect Virtual Sound for your movies</p>
+                <h5>Film 1</h5>
+                <p>Deskripsi Film 1</p>
             </div>
             </div>
             <div class="carousel-item">
-            <img src="kursi.jpg" class="d-block w-100" style="width:100%; height:300px;">
+            <img src="silver.png" class="d-block w-100" style="width:100%; height:300px;">
             <div class="carousel-caption d-none d-md-block">
-                <h5>BioskopID</h5>
-                <p>Best Place To Watch Movies with family</p>
+                <h5>Film 2</h5>
+                <p>Deskripsi Film 2</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="silver.png" class="d-block w-100" style="width:100%; height:300px;">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Film 3</h5>
+                <p>Deskripsi Film 3</p>
             </div>
             </div>
         </div>
@@ -77,13 +84,27 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-        </div>
+    </div>
+    <br><br><br>
+    <!--COMING SOON-->
+    <h1 style="text-align: center;">COMING SOON</h1>
+    <br>
+    <div id="comingsoon">
+      <div id="kotak1" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 90px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+      <div id="kotak" style="float:left; width:250px; height:300px; background-color: grey; margin-left: 30px;"></div>
+    </div>
+    
+    <div style="clear:both;"></div>
+    <br>
 
-        <!--FOOTER-->
-        <ul class="nav justify-content-center bg-dark" style="position: fixed; left: 0; bottom: 0; width:100%;">
-        <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Copyright 2020</a>
-        </li>
-        </ul>
+    <!--FOOTER-->
+    <ul class="nav justify-content-center bg-dark" style="left: 0; bottom: 0; width:100%; transform:translate(0px,0px)">
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Copyright 2020</a>
+      </li>
+    </ul>
   </body>
 </html>
